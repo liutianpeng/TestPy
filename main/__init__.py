@@ -7,7 +7,7 @@ import os
 
 def Run(baseDir):
     cmd = os.path.join(baseDir, "bin/ztm-tools.exe")
-    os.system(cmd)
+    os.popen(cmd)
     return
 
 
