@@ -5,12 +5,11 @@ import sys
 import os
 
 
-def Run():
-    print(os.path.abspath("../"))
-    cmd = os.path.join(os.path.abspath("../"), "bin/ztm-tools.exe")
+def Run(baseDir):
+    cmd = os.path.join(baseDir, "bin/ztm-tools.exe")
     os.system(cmd)
     return
 
 
 if __name__ == '__main__':
-    Run()
+    Run("./")
