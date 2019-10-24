@@ -1,14 +1,12 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-from .gui import ShowGUI
+from . import gui
 import sys
 
 
 def Run():
-    print(sys.path)
-    print("I'm OK from git repo")
-    ShowGUI()
+    gui.ShowGUI()
 
 
 if __name__ == '__main__':
