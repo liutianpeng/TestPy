@@ -1,7 +1,11 @@
+#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import sys
-sys.path.append("./")
+import gui
 
 def Run():
-    print("Run OK")
+    print("I'm OK from git repo")
+    gui.ShowGUI()
+
+if __name__ == '__main__':
+    Run()
