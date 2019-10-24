@@ -3,4 +3,5 @@
 import sys
 sys.path.append("./")
 
-print("Run OK")
+def Run():
+    print("Run OK")
