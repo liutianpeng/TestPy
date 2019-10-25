@@ -1,0 +1,5 @@
+{
+    "python.envFile": "",
+    "python.venvPath": "${workspaceFolder}",
+    "python.pythonPath": "${workspaceFolder}/Scripts/python"
+}
